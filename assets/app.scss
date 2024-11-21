@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Nova Regular";
+  src: url("@/assets/fonts/Nova_Condensed_Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Nova Semibold";
+  src: url("@/assets/fonts/Nova_Condensed_Semibold.woff") format("woff");
+}
+$gray: #444444;
+$russet: #a30c33;
+@mixin btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: fit-content;
+  border: none;
+  padding: 0rem;
+  cursor: pointer;
+}
+@mixin ul {
+  list-style-type: none;
+  padding: 0rem;
+
+  li {
+    a {
+      text-decoration: none;
+      color: $gray;
+    }
+  }
+}
+@mixin flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
