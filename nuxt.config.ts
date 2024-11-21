@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     },
     baseURL: "/peach_softline/",
   },
+  router: {
+    base: "/peach_softline/",
+  },
   vite: {
     build: {
       rollupOptions: {
@@ -16,6 +19,7 @@ export default defineNuxtConfig({
           manualChunks: undefined,
         },
       },
+      publicPath: "/peach_softline/_nuxt/",
     },
     server: {
       hmr: {
