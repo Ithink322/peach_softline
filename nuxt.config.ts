@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     head: {
       title: "Peach Softline",
     },
+    baseURL: "/peach_softline/",
   },
   vite: {
     build: {
