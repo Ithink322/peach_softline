@@ -1,0 +1,6 @@
+import { a as buildAssetsURL } from '../_/renderer.mjs';
+
+const Header_vue_vue_type_style_index_0_scoped_225f484b_lang = "@font-face{font-family:Nova Regular;src:url(" + buildAssetsURL("Nova_Condensed_Regular.ee-FgfzG.woff") + ') format("woff")}@font-face{font-family:Nova Semibold;src:url(' + buildAssetsURL("Nova_Condensed_Semibold.DOvSJxzO.woff") + ') format("woff")}.header[data-v-225f484b]{border:1px solid #d9d9d9;display:flex;flex-direction:column;gap:1rem;padding:1rem .438rem 1rem .313rem}.header__logo[data-v-225f484b]{height:25px;width:125px}.header__list[data-v-225f484b]{align-items:center;display:flex;flex-wrap:wrap;gap:.625rem;list-style-type:none;margin:0;padding:0}.header__list li a[data-v-225f484b]{color:#444;text-decoration:none}.header__list li[data-v-225f484b]{cursor:pointer;font-family:Nova Semibold;font-size:.875rem;white-space:nowrap}@media (min-width:48em){.header[data-v-225f484b]{flex-direction:row;justify-content:space-between}}@media (min-width:64em){.header[data-v-225f484b]{padding:1.875rem 4.375rem}.header__list[data-v-225f484b]{gap:1.25rem}.header__list li[data-v-225f484b]{font-size:1.125rem}}';
+
+export { Header_vue_vue_type_style_index_0_scoped_225f484b_lang as H };
+//# sourceMappingURL=entry-styles-1.mjs-Ch5fNk2A.mjs.map
