@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     },
     baseURL: "/peach_softline/",
   },
+  mode: "static",
   router: {
     base: "/peach_softline/",
   },
